@@ -3,34 +3,105 @@ h1{
 
 }
 
+h2{
+    font-size: 45px;
+}
+
 h3{
     font-size: 22.5px;
 }
 
 body{
     font-family: 'Nunito', sans-serif;
+    margin:0.6px ;
 
 }
 
 p{
     font-size: 18px;
+    font-weight: 900;
+    color : dimgray;
 }
 
 .name-highlight{
 
-    color:rgba(217, 248, 106, 0.979);
+    background-image: linear-gradient( 45deg, rgb(71, 216, 209), rgb(92, 180, 235));
+    font-size: 55px;
+    border-radius: 8px;
+    font-weight: 900;
+    
 }
 
 .half-width{
     width: 40%;
     float: left;
-    padding-left: 1.5%;
+    padding-left:4.5%;
+    
 }
 
 .half-width img{
     width: 90%;
 }
 
-img{
-    padding-left: 40%;
+.another-img{
+    padding-left: 35%; 
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height : 500px;
+    padding-bottom: 200px;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(120deg, rgb(71, 216, 209), rgb(92, 180, 235));
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.dream-area{
+    background-image: url("images/dream.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.another-highlight{
+    color:rgb(92, 180, 235) ;
+   
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 4px;
+    height: 80%;
+    margin-left: 4.5%;
+    background-color: white;
+   
+}
+
+.experience-area{
+    background-image: url("images/experience.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(238, 183, 80), rgb(238, 75, 11));
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgba(14, 14, 235, 0.959), rgb(14, 247, 247));
+    border-image-slice: 1;
+
 }
