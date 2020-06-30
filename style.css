@@ -1,0 +1,36 @@
+h1{
+    font-size: 50px;
+
+}
+
+h3{
+    font-size: 22.5px;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+.name-highlight{
+
+    color:rgba(217, 248, 106, 0.979);
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 1.5%;
+}
+
+.half-width img{
+    width: 90%;
+}
+
+img{
+    padding-left: 40%;
+}
